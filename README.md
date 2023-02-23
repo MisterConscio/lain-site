@@ -1,14 +1,17 @@
-# Landpage inspirada na série Serial Experiments Lain
+# Lain Landpage
 
-Uma página simples falando um pouco sobre a série e cotendo alguns breve comentários.
+Uma página simples falando um pouco sobre a série Serial Experiments Lain,
+contendo alguns breves comentários sobre detalhes da animação.
 
-São utilizados sass e gulp para produção
+## Dev
 
-## Desenvolvimento e Build
+Desenvolivmento:
 
 ``` sh
 npm install && npm run dev
 ```
+
+Build:
 
 ``` sh
 npm run build
