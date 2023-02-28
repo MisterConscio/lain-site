@@ -1,0 +1,25 @@
+.header {
+  &__container {
+    margin: 0 auto;
+    padding: 8px 0;
+    max-width: 1106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    &__item {
+      display: inline-block;
+      margin-right: 8px;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

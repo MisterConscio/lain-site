@@ -5,40 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Tilt+Neon&display=swap" rel="stylesheet">
     <link href="./dist/css/main.css" rel="stylesheet">
   </head>
   <body>
 
     <header class="header">
       <div class="header__container">
-        <h1 class="header__logo">
+        <h1 class="header__logo title">
           Lain
         </h1>
         <ul class="header__list">
           <li class="header__list__item">
-            <a href="#">Lain?</a>
+            <a href="#sobre" class="title--med">Lain?</a>
           </li>
           <li class="header__list__item">
-            <a href="#">Cenas</a>
+            <a href="#cenas" class="title--med">Cenas</a>
           </li>
           <li class="header__list__item">
-            <a href="#">Wired</a>
+            <a href="#serie" class="title--med">Wired</a>
           </li>
         </ul>
       </div>
     </header>
 
-    <section class="sobre">
+    <section id="sobre" class="sobre">
       <div class="sobre__container">
         <div class="sobre__text">
-          <h2>Lain?</h2>
-          <p>
+          <h2 class="title--med">Lain?</h2>
+          <p class="text--big">
           Lain é uma animação japonesa que apresenta imagens surreais e de vanguarda e
           explora tópicos filosóficos como realidade, identidade e comunicação.
           A série incorpora influências criativas da história do computador,
           cyberpunk e teoria da conspiração.
           </p>
-          <p>
+          <p class="text--big">
           Animada pela Triangle Staff, com desenhos de personagens originais
           de Yoshitoshi ABe, a série foi transmitida em 13 episódios na TV Tokyo e suas
           afiliadas de julho a setembro de 1998. A série segue Lain Iwakura, uma adolescente
@@ -47,53 +50,61 @@
           </p>
         </div>
         <div class="sobre__image">
-          <img src="#" alt="Lol">
+          <img src="./dist/images/lain-cover.jpg" alt="Aqui tem uma imagem">
         </div>
       </div>
     </section>
 
-    <section class="cenas">
-      <h2>Cenas</h2>
+    <section id="cenas" class="cenas">
       <div class="cenas__container">
-        <img src="#" alt="Bruh">
-        <img src="#" alt="Bruh">
-        <img src="#" alt="Bruh">
+        <h2 class="title--med">Cenas</h2>
+        <div class="cenas__grid">
+          <img src="./dist/images/lain-scene-01.jpg" alt="Aqui tem uma imagem">
+          <img src="./dist/images/lain-scene-02.jpg" alt="Aqui tem uma imagem">
+          <img src="./dist/images/lain-scene-03.jpg" alt="Aqui tem uma imagem">
+          <img src="./dist/images/lain-scene-04.jpg" alt="Aqui tem uma imagem">
+          <img src="./dist/images/lain-scene-05.jpg" alt="Aqui tem uma imagem">
+          <img src="./dist/images/lain-scene-06.jpg" alt="Aqui tem uma imagem">
+          <img src="./dist/images/lain-scene-07.jpg" alt="Aqui tem uma imagem">
+          <img src="./dist/images/lain-scene-08.jpg" alt="Aqui tem uma imagem">
+          <img src="./dist/images/lain-scene-09.jpg" alt="Aqui tem uma imagem">
+        </div>
       </div>
     </section>
 
-    <section class="serie">
+    <section id="serie" class="serie">
       <div class="serie__container">
-        <h2>Wired - Alguns detalhes da série</h2>
+        <h2 class="title--med">Wired - Alguns detalhes da série</h2>
         <dl class="serie__definition">
-          <dd class="serie__definition__title">
+          <dd class="serie__definition__title title--small">
             Wired (Internet)
           </dd>
-          <dt class="serie__definition__text">
+          <dt class="serie__definition__text text--big">
             Um tipo de realiadade que está a par com o mundo real e digital.
           </dt>
-          <dd class="serie__definition__title">
+          <dd class="serie__definition__title title--small">
             Protocolo 7
           </dd>
-          <dt class="serie__definition__text">
+          <dt class="serie__definition__text text--big">
             Uma maneira de connectar o mundo real com a Wired, desenvolvida por Eiri Masami.
           </dt>
-          <dd class="serie__definition__title">
+          <dd class="serie__definition__title title--small">
             NAVI
           </dd>
-          <dt class="serie__definition__text">
+          <dt class="serie__definition__text text--big">
             Um computador pessoal que as pessoas na série usam para se conectar na Wired.
           </dt>
-          <dd class="serie__definition__title">
+          <dd class="serie__definition__title title--small">
             Eiri Masami
           </dd>
-          <dt class="serie__definition__text">
+          <dt class="serie__definition__text text--big">
             Ex-membro do Tachibana Lab que desenvolveu o Protocolo 7 e
             utilizou seu novo poder para se tornar um "Deus do Wired".
           </dt>
-          <dd class="serie__definition__title">
+          <dd class="serie__definition__title title--small">
             Iwakura Lain (^_^)
           </dd>
-          <dt class="serie__definition__text">
+          <dt class="serie__definition__text text--big">
             A protagonista da série, supostamente seria um produto do Protocolo 7 que foi
             enviada para o mundo real para eliminar um 'inimigo' (spoilers!).
           </dt>

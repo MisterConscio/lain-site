@@ -1,0 +1,30 @@
+.serie {
+  &__container {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100vh;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  &__definition {
+    padding: 0 8rem;
+
+    &__title {
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    &__text {
+      padding-left: 8px;
+      margin-bottom: 32px;
+
+      &::before {
+        content: '>';
+      }
+    }
+  }
+}

@@ -1,4 +1,51 @@
+@use 'header';
+@use 'sobre';
+@use 'cenas';
+@use 'serie';
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$bg-color: #023436;
+$text-color: #00BFB3;
+
+@mixin title($fontsize: 40px) {
+  font-size: $fontsize;
+  font-family: 'Tilt Neon', cursive;
+  color: $text-color;
+}
+
+@mixin text($fontsize: 16px) {
+  font-size: $fontsize;
+  line-height: $fontsize + 10px;
+  color: $text-color;
+}
+
+.title {
+  @include title;
+}
+
+.title--small {
+  @include title(20px);
+}
+
+.title--med {
+  @include title(28px);
+}
+
+.text {
+  @include text;
+}
+
+.text--big {
+  @include text(18px);
+}
+
 body {
-  background-color: #1f1e1c;
-  color: #fdfdfd;
+  background-color: $bg-color;
+  color: $text-color;
 }
