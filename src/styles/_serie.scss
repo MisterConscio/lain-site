@@ -27,4 +27,18 @@
       }
     }
   }
+
+  &__ani {
+    display: flex;
+    justify-content: center;
+
+    &__item {
+      display: inline-block;
+      padding: 0 16px;
+
+      img {
+        width: 200px;
+      }
+    }
+  }
 }
