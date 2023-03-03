@@ -2,16 +2,28 @@
   &__container {
     max-width: 1024px;
     margin: 0 auto;
-    height: 100vh;
+    height: 100%;
+
+    // @media (max-width: 1024px) {
+    //   height: 100%;
+    // }
   }
 
   h2 {
     text-align: center;
     margin-bottom: 48px;
+
+    @media (max-width: 767px) {
+      margin-top: 48px;
+    }
   }
 
   &__definition {
     padding: 0 8rem;
+
+    @media (max-width: 767px) {
+      padding: 0 1rem;
+    }
 
     &__title {
       font-style: italic;
@@ -21,6 +33,7 @@
     &__text {
       padding-left: 8px;
       margin-bottom: 32px;
+      font-weight: normal;
 
       &::before {
         content: '>';
@@ -38,6 +51,10 @@
 
       img {
         width: 200px;
+
+        @media (max-width: 767px) {
+          width: 70px;
+        }
       }
     }
   }

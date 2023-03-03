@@ -28,6 +28,10 @@ $text-color: #00BFB3;
 
 .title {
   @include title;
+
+  @media (max-width: 767px) {
+    @include title(28px);
+  }
 }
 
 .title--small {
@@ -36,6 +40,10 @@ $text-color: #00BFB3;
 
 .title--med {
   @include title(28px);
+
+  @media (max-width: 767px) {
+    @include title(20px);
+  }
 }
 
 .text {

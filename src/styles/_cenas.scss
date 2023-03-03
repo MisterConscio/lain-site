@@ -4,19 +4,27 @@
     margin: 0 auto;
     height: 100vh;
 
+    @media (max-width: 767px) {
+      height: 100%;
+    }
+
     h2 {
       text-align: center;
+
+      @media (max-width: 767px) {
+        margin: 24px 0;
+      }
     }
   }
 
-  &__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin-top: 24px;
-
-    img {
-      width: 100%;
-    }
-  }
+  // &__grid {
+  //   display: grid;
+  //   grid-template-columns: repeat(3, 1fr);
+  //   gap: 24px;
+  //   margin-top: 24px;
+  //
+  //   img {
+  //     width: 100%;
+  //   }
+  // }
 }
